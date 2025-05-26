@@ -1,0 +1,81 @@
+.lp-main{
+    width: 30vw;
+    height: 93vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.lp-in{
+    height: 90%;
+    width: 95%;
+    background-color: rgb(35, 35, 35);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.lp-in-1{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-right: 80px;
+}
+.lp-in-2{
+    height: 20%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-bar{
+    height: 40px;
+    width: 90%;
+    background-color: rgb(107, 107, 107);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-bar input{
+    background-color: rgb(107, 107, 107);
+    height: 70%;
+    width: 80%;
+    outline: none;
+    border: none;
+    color: white;
+}
+.input-bar input:focus{
+    background-color: rgb(107, 107, 107);
+    height: 70%;
+    border: none;
+}
+.input-bar input::placeholder{
+    color: rgb(255, 255, 255,0.5);
+    font-family: 'Cal Sans';
+    letter-spacing: 1px;
+}
+
+.input-bar button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}

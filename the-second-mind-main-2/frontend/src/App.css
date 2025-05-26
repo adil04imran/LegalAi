@@ -1,0 +1,8 @@
+body{
+  font-family: 'Tiny5';
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  background-color: black;
+  overflow-x: hidden;
+}

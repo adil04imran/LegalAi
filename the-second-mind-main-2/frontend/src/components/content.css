@@ -1,0 +1,203 @@
+.cont-main{
+    width: 70vw;
+    height: 93vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cal Sans';
+}
+
+.cont-in {
+    position: relative;
+    width: 95%;
+    height: 90%;
+    border-radius: 15px;
+    overflow: hidden; /* Ensures video stays within rounded corners */
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Makes sure the video covers the entire container */
+    z-index: -1; /* Puts the video behind the content */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity as needed */
+    z-index: 1;
+}
+
+.cont-in > * {
+    position: relative;
+    z-index: 2; /* Ensures content stays above the video and overlay */
+}
+
+
+.cont-in {
+    position: relative;
+    width: 95%;
+    height: 90%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto;
+}
+
+/* Background video */
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* White overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255,0.8); /* Adjust opacity as needed */
+    z-index: 1;
+}
+
+/* Foreground content */
+.content-overlay {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content-overlay h1{
+    text-align: center;
+    font-size: 60px;
+    /* background: linear-gradient(145deg,rgb(0, 45, 62) 0%, rgb(0, 51, 71) 50%, rgb(166, 166, 166) 100%); */
+    /* background: linear-gradient(165deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(0, 148, 52, 1) 100%); */
+    /* background: linear-gradient(39deg,rgba(255, 120, 129, 1) 0%, rgba(255, 41, 41, 1) 50%, rgba(120, 120, 120, 1) 100%); */
+    /* background: linear-gradient(207deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(168, 241, 255, 1) 100%); */
+    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%, rgba(252, 70, 107, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.content-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.content-2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .tab-container {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+    position: relative;
+  }
+  
+  .tab-item {
+    position: relative;
+    padding: 8px 4px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .tab-item::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -8px;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .tab-item.active {
+    color: black;
+  }
+  
+  .tab-item.active::after {
+    transform: scaleX(1);
+  }
+  
+.tab-content {
+  margin-top: 30px;
+  text-align: left; /* Better for long-form content */
+  background-color: rgba(153, 153, 153, 0.5);
+  width: 90%;
+  border-radius: 10px;
+  padding: 20px;
+  max-height: 400px;         /* Limits the vertical space */
+  overflow-y: auto;          /* Enables scroll when needed */
+  box-sizing: border-box;    /* Ensures padding doesn't overflow */
+  scrollbar-width: thin;     /* For Firefox */
+  scrollbar-color: #888 #ccc;
+  overflow-x: hidden;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+white-space: normal;
+}
+
+/* Chrome, Edge, and Safari custom scrollbar styling */
+.tab-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.tab-content::-webkit-scrollbar-track {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.tab-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.tab-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

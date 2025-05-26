@@ -1,0 +1,16 @@
+version: '3'
+services:
+  project1:
+    build: ./Main page
+    ports:
+      - "3000:3000"  # or your desired port
+
+  project2:
+    build: ./lextract-main-2
+    ports:
+      - "3001:3001"
+
+  project3:
+    build: ./the-second-mind-main-2
+    ports:
+      - "3002:3002"
