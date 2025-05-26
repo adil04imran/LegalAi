@@ -10,7 +10,18 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for frontend communication
 
 # Gemini setup
-genai.configure(api_key="AIzaSyAUSin_MGLIiuJzYPHwHk39O6L_9jlWoyc")
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get API key from environment variable
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+if not GOOGLE_API_KEY:
+    raise ValueError("GOOGLE_API_KEY environment variable not set")
+
+genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")  # You can also try "gemini-1.5-pro"
 
 @app.route('/analyze', methods=['POST'])
