@@ -1,0 +1,29 @@
+{
+    "heroSection": {
+      "title": "Lextract",
+      "tagline": "বহুভাষী আইনি ডকুমেন্ট বিশ্লেষণ সহজ করা হয়েছে",
+      "description": "আইনি ডকুমেন্ট থেকে কাঠামোগত ডেটা বের করুন। একাধিক ভারতীয় ভাষায় সময় বাঁচান এবং আপনার সম্মতি কর্মপ্রবাহে ভাষার বাধাগুলি দূর করুন।",
+      "ctaText": "ডকুমেন্ট বিশ্লেষণ করুন"
+    },
+    "statsSection": {
+      "languagesSupported": "15+ ভাষা সমর্থিত",
+      "accuracyRate": "98% সঠিকতা হার",
+      "timeSaved": "75% সময় সঞ্চয়",
+      "averageProcessTime": "6 সেকেন্ড গড় প্রক্রিয়া সময়"
+    },
+    "featuresSection": {
+      "howItWorks": "এটি কীভাবে কাজ করে",
+      "upload": "আপলোড করুন",
+      "analyze": "বিশ্লেষণ করুন",
+      "structure": "গঠন"
+    },
+    "infoSection": {
+      "whatWeExtract": "আমরা কী বের করি",
+      "supportedLanguages": "সমর্থিত ভাষাসমূহ"
+    },
+    "ctaSection": {
+      "readyText": "আপনি কি আপনার ডকুমেন্ট প্রসেসিংকে সহজতর করতে প্রস্তুত?",
+      "ctaButtonText": "এখন শুরু করুন"
+    }
+  }
+  

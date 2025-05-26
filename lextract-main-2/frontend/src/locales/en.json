@@ -1,0 +1,83 @@
+{
+    "documentAnalysis": {
+      "title": "Document Analysis",
+      "tagline": "Extract structured data from legal documents in multiple languages",
+      "imageUpload": {
+        "dragDrop": "Drag and Drop your document here",
+        "clickToUpload": "or Click here to upload",
+        "uploadIconAlt": "Upload Icon"
+      },
+      "buttons": {
+        "analyze": {
+          "image": "Analyze Image",
+          "pdf": "Analyze PDF",
+          "document": "Analyze Document"
+        },
+        "clear": {
+          "image": "Clear Image",
+          "pdf": "Clear PDF",
+          "document": "Clear Document"
+        },
+        "download": "Download Results",
+        "email": "Email Results",
+        "chatWithAI": "Chat with AI"
+      },
+      "stages": {
+        "extracting": "Extracting",
+        "detecting": "Detecting",
+        "parsing": "Parsing",
+        "structuring": "Structuring",
+        "analyzing": "Analyzing"
+      },
+      "extractedInformation": {
+        "heading": "Extracted Information",
+        "fields": {
+          "clientName": "Client Name",
+          "pan": "PAN",
+          "aadhaar": "AADHAAR",
+          "gstin": "GSTIN",
+          "natureOfNotice": "Nature of Notice",
+          "deadlinesAndPenalties": "Deadlines and Penalties",
+          "reportingOfficer": "Reporting Officer/Office",
+          "relevantLegalSections": "Relevant Legal Sections"
+        }
+      },
+      "errors": {
+        "fileType": "Please upload a valid image or PDF file.",
+        "analyzeError": "Error analyzing the document. Please try again.",
+        "jsonParsingError": "Error parsing the result data. Please check the data format."
+      },
+      "alerts": {
+        "analyzing": "Analyzing... Please wait while we process your document.",
+        "clearConfirmation": "Are you sure you want to clear the document?",
+        "noFileSelected": "No file selected. Please upload an image or PDF to analyze."
+      }
+    },
+    "heroSection": {
+      "title": "Lextract",
+      "tagline": "Multilingual Legal Document Analysis Made Simple",
+      "description": "Extract structured data from legal documents in multiple Indian languages. Save time and eliminate language barriers in your compliance workflow.",
+      "ctaText": "Analyze Document"
+    },
+    "statsSection": {
+      "languagesSupported": "15+ Languages Supported",
+      "accuracyRate": "98% Accuracy Rate",
+      "timeSaved": "75% Time Saved",
+      "averageProcessTime": "6 Seconds Average Process Time"
+    },
+    "featuresSection": {
+      "howItWorks": "How It Works",
+      "upload": "Upload",
+      "analyze": "Analyze",
+      "structure": "Structure"
+    },
+    "infoSection": {
+      "whatWeExtract": "What We Extract",
+      "supportedLanguages": "Supported Languages"
+    },
+    "ctaSection": {
+      "readyText": "Ready to streamline your document processing?",
+      "ctaButtonText": "Get Started Now"
+    }
+  }
+  
